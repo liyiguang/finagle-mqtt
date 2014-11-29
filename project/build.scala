@@ -11,7 +11,7 @@ object Build extends sbt.Build {
       ++ packSettings // This settings add pack and pack-archive commands to sbt
       ++ Seq(
       name := "finagle-mqtt",
-      version := "0.0.1",
+      version := "0.0.1-SNAPSHOT",
       crossScalaVersions := Seq("2.9.2", "2.10.0"),
 
       resolvers += "Eclipse Paho Release" at "https://repo.eclipse.org/content/repositories/paho-releases/",
