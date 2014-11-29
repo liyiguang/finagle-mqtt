@@ -1,4 +1,5 @@
 finagle-mqtt
 ============
+MQTT message broker server imply by extended the twitter finagle RPC framework
 
-MQTT Server like https://github.com/panhaidong/skeeter-mqtt
+
